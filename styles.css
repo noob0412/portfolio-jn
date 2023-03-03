@@ -1,0 +1,13 @@
+.navbar{
+    background-color: #ffff;
+}
+.navbar-brand{
+    color: #9AB3F5;
+}
+.navbar-brand:hover{
+    color:#A3D8F4;
+}
+img{
+    height: 120px;
+    width: 105px;
+}
