@@ -1,13 +1,62 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+}
 .navbar{
     background-color: #ffff;
+
 }
-.navbar-brand{
-    color: #9AB3F5;
+.navbar a{
+    color: #112031;
 }
-.navbar-brand:hover{
-    color:#A3D8F4;
+.nav a:hover{
+    color:#416e77;
 }
-img{
+#logo{
     height: 120px;
     width: 105px;
+    /* filter: blur(2px); */
+}
+/* #logo:hover{
+    filter: drop-shadow(5px rgb(59, 57, 57));   
+} */
+/* hover operations */
+#menu{
+    display: none;
+}
+
+.bi-list{
+    width: 70px;
+    height: 85px;
+}
+/* .img-fluid{
+    opacity: 0.5;
+}
+#home-img{
+    background-image: url("/assets/photo-1560780552-ba54683cb263.jpeg");
+} */
+
+/* solve the card problem */
+
+.bg-body-tertiary{
+    padding: 20px;
+}
+
+@media (max-width: 992px){
+    #nav-options{
+        display: none;
+    }
+    #menu{
+        display: flex;
+    }
+}
+@media (max-width: 768px){
+    #logo{
+        height: 75px;
+        width: 67px;
+    }
+    .bi-list{
+        width: 55px;
+        height: 67px;
+    }
 }
