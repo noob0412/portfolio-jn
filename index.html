@@ -7,24 +7,91 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-      <nav class="navbar border">
-        <div class="container-fluid mx-5">
-          <a class="navbar-brand align-items-end" href="#">
-            <img src="assets/logo-removebg-preview.png" alt="JN Graphics" class="">
+      <nav class="navbar ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo-removebg-preview.png" alt="JN Graphics" id="logo">
           </a>
-          <div class="row">
-            <ul class="nav justify-content-center">
-              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-            </ul>
+            <div class="row" id="nav-options">
+              <ul class="nav">
+                <li class="nav-item mx-3"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item mx-3"><a href="#" class="nav-link">Contact</a></li>
+              </ul>
+            </div>
+          <div class="row" id="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
           </div>
         </div>
       </nav>
+      <div class="container" id="home-img">
+        <img src="assets/bizhub.png" alt="plotter" class="img-fluid">
+      </div>
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-6">
+            <h3>About</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quasi laborum doloribus doloremque veritatis enim praesentium eveniet delectus ipsam officia facere autem adipisci fugiat, similique iure sed distinctio mollitia recusandae.</p>
+          </div>
+          <div class="col-6">
+            <h3>About</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque quasi laborum doloribus doloremque veritatis enim praesentium eveniet delectus ipsam officia facere autem adipisci fugiat, similique iure sed distinctio mollitia recusandae.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5 bg-body-tertiary">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="assets/photo-1631270314738-e6f6827f8d9f.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/photo-1631270314738-e6f6827f8d9f.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/photo-1631270314738-e6f6827f8d9f.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="assets/photo-1631270314738-e6f6827f8d9f.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>  </div>
+          </div>
+          </div>
+        </div>
+        <!-- seek the card responsiveness -->
+      </div>
     </main>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
